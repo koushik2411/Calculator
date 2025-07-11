@@ -22,7 +22,7 @@ function updateClock() {
     document.getElementById("date").textContent =dateString;
 
     //day
-    const days = ["Sunday","Monday","Wednesday","Thursday","Friday","Saturday"];
+    const days = ["Sunday","Monday","Tuesday,"Wednesday","Thursday","Friday","Saturday"];
     const dayName = days[now.getDay()];
     document.getElementById("day").textContent = dayName;
 
