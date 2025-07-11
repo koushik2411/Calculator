@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #d97878, #6dc6c6, #bb5555);
+}
+
+.dark {
+    background: #333;
+}
+
+.light {
+    background: linear-gradient(135deg, #d97878, #6dc6c6, #bb5555);
+}
+
+.calc-body {
+    margin-top: 25px;
+    height: 660px;
+    width: 380px;
+    border: 3px solid #f0ffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #bc8f8f;
+}
+
+.top-div {
+    margin-bottom: 25px;
+    height: 100px;
+    width: 335px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.clock-div {
+    text-align: right;
+}
+
+#greeting {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f9b31d;
+    text-shadow:1px 1px 2px #333;
+}
+
+#clock {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9b31d;
+    text-shadow: 1px 1px 2px #333;
+}
+
+#date {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f0ffff;
+    text-shadow: 1px 1px 2px #333;
+}
+
+#day {
+    font-size: 16px;
+    color: #f9b31d;
+    text-shadow: 1px 1px 2px #333;
+}
+
+input {
+    height: 95px;
+    width: 315px;
+    margin-bottom: 20px;
+    align-self: center;
+    text-align: right;
+    font-size: 45px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #f0f8ff;
+    text-shadow: 1px 1px 1px #555;
+}
+
+input::placeholder {
+    color: #f0f8ff;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.rows {
+    width: 342px;
+    height: 65px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    height: 63px;
+    width: 63px;
+    border-radius: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #555, #333);
+    color: #f0ffff;
+    border:2px solid #f0f8ff;
+}
+
+.operators {
+    color: #f0a505;
+}
+
+button:active {
+    background: linear-gradient(135deg, #333, #555);
+}

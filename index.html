@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with digital clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light dark">
+
+    <div class="calc-body">
+
+        <div class="top-div">
+
+            <div id="greeting">
+                <h3>hello</h3>
+            </div>
+
+            <div class="clock-div">
+
+                <div id="clock">
+                    <h3>--:--:--</h3>
+                </div>
+
+                <div id="date">
+                    <h4>--/--/----</h4>
+                </div>
+
+                <div id="day">
+                    <p>day</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <input type="text" placeholder="0" id="inputBox">
+
+        <div class="btns">
+
+            <div class="rows">
+
+                <button onclick class="operators"id="theme-btn">M</button>
+                <button onclick class="operators">AC</button>
+                <button onclick class="operators">C</button>
+                <button onclick class="operators">/</button>
+
+            </div>
+
+            <div class="rows">
+
+                <button onclick class="numbers">7</button>
+                <button onclick class="numbers">8</button>
+                <button onclick class="numbers">9</button>
+                <button onclick class="operators">*</button>
+
+            </div>
+
+            <div class="rows">
+
+                <button onclick class="numbers">4</button>
+                <button onclick class="numbers">5</button>
+                <button onclick class="numbers">6</button>
+                <button onclick class="operators">-</button>
+
+            </div>
+
+            <div class="rows">
+
+                <button onclick class="numbers">1</button>
+                <button onclick class="numbers">2</button>
+                <button onclick class="numbers">3</button>
+                <button onclick class="operators">+</button>
+
+            </div>
+
+            <div class="rows">
+
+                <button onclick class="numbers">00</button>
+                <button onclick class="numbers">0</button>
+                <button onclick class="operators">.</button>
+                <button onclick class="operators" id="equalto">=</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="calculator.js"></script>
+    <script src="clock.js"></script>
+    <script src="theme.js"></script>
+    
+
+</body>
+
+</html>
